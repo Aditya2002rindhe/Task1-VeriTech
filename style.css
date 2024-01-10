@@ -1,0 +1,177 @@
+body{
+    margin: 50px 200px 50px 200px;
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    color: rgb(223, 43, 211);
+}
+
+.team{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+} 
+
+.title{
+    margin-top: 100px;
+    background-color: rgb(223, 43, 211);
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.titles{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.mgmtteam{
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    width: 600px;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: aquamarine; */
+}
+
+.first{
+    grid-column-start: 2;
+}
+
+.second{
+    grid-column-start: 4;
+}
+
+.third{
+    grid-row-start: 2;
+}
+
+.fourth{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.fifth{
+    grid-row-start: 2;
+    grid-column-start: 5;
+}
+
+.icon{
+    background-color: rgb(196, 191, 191);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+ 
+
+.card{
+    background-color: white;
+    display: inline-block;
+}
+
+.devteam{
+    text-align: center;
+    /* background-color: rgb(0, 0, 0); */
+    height: 500px;
+    width: 900px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.first1{
+    grid-column-start: 1;
+}
+
+.second1{
+    grid-column-start: 3;
+}
+
+.third1{
+    grid-column-start: 5;
+}
+
+.fourth1{
+    grid-column-start: 7;
+}
+
+.fifth1{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.sixth1{
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.seventh1{
+    grid-row-start: 2;
+    grid-column-start: 6;
+}
+
+
+
+.marketteam{
+    text-align: center;
+    /* background-color: rgb(140, 30, 242); */
+    height: 500px;
+    display: grid;
+}
+
+.first2{
+    grid-column-start: 1;
+}
+
+.second2{
+    grid-column-start: 3;
+}
+
+.third2{
+    grid-column-start: 5;
+}
+
+.fourth2{
+    grid-column-start: 7;
+}
+
+.fifth2{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.sixth2{
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.seventh2{
+    grid-row-start: 2;
+    grid-column-start: 6;
+}
+
+.post{
+    color: rgb(223, 43, 211);
+    opacity: 0.85;
+}
+
+/* .bookmark{
+    display: inline;
+} */
